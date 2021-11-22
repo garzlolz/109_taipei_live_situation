@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+    .biglogo{
+        height:100vh;
+        width: 300px;
+        background-color: white;
+        float: left;
+    }
+    #taipeilogo{
+        width:300px
+    }
+    #chart_div{
+        margin-left: 350px;
+       
+    }
+    .Content {
+        padding-top: 100px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(193, 193, 193);
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .biglogo{
+        width: 100%;
+        margin-left: 60%;
+        font-size :40px;
+        text-align: center
+    }
+    #taipeilogo{
+        width: 100%;
+    }
+    #chart_div{
+        width: 100%;;
+        height:600px
+    }
+    .Content{
+        width: 100%;
+        font-size: 30px;
+    }
+    .local{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin-left: 200px;
+    }
+    .locations{
+        width: 500px;
+        text-align: center;
+        /* margin-left: 200px; */
+        height:60px;
+        font-size:30px;
+        border-radius:10px;
+        display:flex;
+    }
+    #selectlocal{
+        display:flex;
+    }
+
+}
